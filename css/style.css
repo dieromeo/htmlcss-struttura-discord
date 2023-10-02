@@ -48,6 +48,12 @@ DEBUG
     border: 2px dashed black;
 }
 
+.debug #box {
+    background-color: #228b22;
+    height: 935px;
+    border: 2px dashed black;
+}
+
 
 /*
 ------------
@@ -106,6 +112,15 @@ section :last-child {
 .reverse {
     background-color: #d3d3d3;
     flex-direction: row-reverse;
+}
+
+.section-box {
+    background-color: #d3d3d3;
+}
+
+#box {
+    width: 1250px;
+    margin: 0 auto;
 }
 
 /*
