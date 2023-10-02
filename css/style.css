@@ -1,0 +1,75 @@
+/*
+------------
+RESET
+------------
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+------------
+DEBUG
+------------
+*/
+.debug .first-header {
+    background-color: #add8e6;
+}
+
+.first-header div {
+    background-color: #daa520;
+    margin: 18px 0;
+    border: 2px dashed black;
+}
+
+
+/*
+------------
+HEADER
+------------
+*/
+
+.first-header {
+    display: flex;
+    justify-content: center;
+}
+
+.first-header div {
+    padding: 10px;
+    display: flex;
+}
+
+.logo,
+.login {
+    width: 250px;
+}
+
+.link {
+    width: 745px;
+    justify-content: center;
+}
+
+.login {
+    justify-content: flex-end;
+}
+
+/*
+------------
+MAIN
+------------
+*/
+
+/*
+------------
+COMMON
+------------
+*/
+
+/*
+------------
+FOOTER
+------------
+*/
