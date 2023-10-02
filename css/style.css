@@ -36,6 +36,18 @@ DEBUG
     border: 2px dashed black;
 }
 
+.debug section :first-child {
+    background-color: #1e90ff;
+    height: 520px;
+    border: 2px dashed black;
+}
+
+.debug section :last-child {
+    background-color: #ffc0cb;
+    height: 520px;
+    border: 2px dashed black;
+}
+
 
 /*
 ------------
@@ -77,6 +89,24 @@ HEADER
 MAIN
 ------------
 */
+
+section {
+    justify-content: center;
+    padding: 50px;
+}
+
+section :first-child {
+    width: 750px;
+}
+
+section :last-child {
+    width: 495px;
+}
+
+.reverse {
+    background-color: #d3d3d3;
+    flex-direction: row-reverse;
+}
 
 /*
 ------------
