@@ -19,9 +19,20 @@ DEBUG
     background-color: #add8e6;
 }
 
-.first-header div {
+.debug .first-header div {
     background-color: #daa520;
     margin: 18px 0;
+    border: 2px dashed black;
+}
+
+.debug .second-header {
+    background-color: #00008b;
+    height: 520px;
+}
+
+.debug .header-box {
+    background-color: #ee82ee;
+    height: 415px;
     border: 2px dashed black;
 }
 
@@ -33,7 +44,6 @@ HEADER
 */
 
 .first-header {
-    display: flex;
     justify-content: center;
 }
 
@@ -56,6 +66,12 @@ HEADER
     justify-content: flex-end;
 }
 
+.header-box {
+    width: 945px;
+    margin: 0 auto;
+    align-self: center;
+}
+
 /*
 ------------
 MAIN
@@ -67,6 +83,10 @@ MAIN
 COMMON
 ------------
 */
+
+.flex {
+    display: flex;
+}
 
 /*
 ------------
