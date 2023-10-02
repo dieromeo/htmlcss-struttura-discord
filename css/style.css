@@ -70,6 +70,18 @@ DEBUG
     border: 2px dashed white;
 }
 
+.debug .second-footer {
+    background-color: #7fffd4;
+}
+
+.debug .second-footer div {
+    background-color: #ffb6c1;
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+
+
 /*
 ------------
 HEADER
@@ -165,4 +177,11 @@ FOOTER
 
 .colonna {
     width: 220px;
+}
+
+.second-footer {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 20px 0;
+    justify-content: space-between;
 }
