@@ -54,6 +54,21 @@ DEBUG
     border: 2px dashed black;
 }
 
+.debug footer {
+    background-color: #23272a;
+}
+
+.debug .aside {
+    background-color: #f08080;
+    height: 600px;
+    border: 2px dashed black;
+}
+
+.debug .colonna {
+    background-color: #20b2aa;
+    height: 600px;
+    border: 2px dashed white;
+}
 
 /*
 ------------
@@ -106,7 +121,7 @@ section :first-child {
 }
 
 section :last-child {
-    width: 495px;
+    width: 500px;
 }
 
 .reverse {
@@ -138,3 +153,16 @@ COMMON
 FOOTER
 ------------
 */
+.first-footer {
+    justify-content: center;
+    padding: 10px 0 40px 0;
+    border-bottom: 2px solid white;
+}
+
+.aside {
+    width: 370px;
+}
+
+.colonna {
+    width: 220px;
+}
